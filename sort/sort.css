@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.searchBox{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+}
+.searchBox .search{
+    position: absolute;
+    left: 8px;
+    top:8px;
+    right:8px;
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #e6e6e6;
+    height: 28px;
+    padding: 0 5px 0 20px;
+}
+.searchBox .search i{
+    display: inline-block;
+    background: url('../images/sort/search_bar_sprites.png') no-repeat 0 0;
+    background-size:44px auto;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: -11px;
+    top: -7px;
+}
+.searchBox .search input{
+    width: 100%;
+    height: 22px;
+    padding: 3px 0;
+    outline: none;
+    border: none;
+}
+.sort{
+    width: 90px;
+    position: fixed;
+    left:0;
+    top:45px;
+    bottom: 50px;
+    overflow: auto;
+    background-color: #f8f8f8;
+}
+.sort li{
+    padding-left: 14px;
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    background-color: #f8f8f8;
+}
+.sort li a{
+    height: 43px;
+    margin-bottom: -4px;
+    line-height: 44px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    outline: none;
+    display: inline-block;
+    width: 100%;
+}
+.sort li.select{
+    color: #47b34f;
+    background-color: #FFF;
+    border-left: 3px solid #47b34f;
+    border-right-color: #FFF;
+}
+.content{
+    margin: 44px 0 50px 95px;
+}
+.content dl dt{
+    height: 19px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 7%;
+    line-height: 19px;
+    font-size: 13px;
+    color: #666666;
+}
+.content dl dd a{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    font-size: 12px;
+    color: #7d7d7d;
+    padding: 8px 0;
+}
+.content dl dd a img{
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*底*/
+.bottom_nav{
+    border-top:1px solid #d9d9d9;
+    position: fixed;
+    bottom: 0;
+    margin-top:60px;
+    background: #fff;
+    width: 100%;
+}
+.bottom_nav>a{
+    width: 20%;
+    padding-top: 30px;
+    height: 20px;
+    background: url('../images/page1/nav2.png') no-repeat;
+    background-size: 22px 500px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    color:#555;
+}
+.bottom_nav>a:nth-child(1){
+    background-position: center -250px;
+}
+.bottom_nav>a:nth-child(2){
+    background-position: center -50px;
+    color: #39ac69;
+}
+.bottom_nav>a:nth-child(3){
+    background-position: center -350px;
+}
+.bottom_nav>a:nth-child(4){
+    background-position: center -400px;
+}
+.bottom_nav>a:nth-child(5){
+    background-position: center -450px;
+}

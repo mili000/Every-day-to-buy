@@ -1,0 +1,128 @@
+.nav{
+    width: 100%;
+}
+.nav img{
+    width: 100%;
+    max-width: 100%;
+    margin: -2px;
+}
+.list{
+    background-color: #ffdfe2;
+    margin-top: -3px;
+}
+.list li{
+    width: 47%;
+    margin-top: 8px;
+    margin-left: 2%;
+    background-color: #fff;
+    display: inline-block;
+}
+.list li div{
+    width: 100%;
+}
+.list li img{
+    width: 100%;
+    max-width: 100%;
+}
+.list li>span{
+    color: #333;
+    line-height: 16px;
+    height: 32px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-align: left;
+    display: block;
+}
+.list li div>span{
+    color:#ff546c;
+}
+.list li div>span:first-child{
+    float: left;
+    margin-left: 5px;
+}
+.list li div>span:last-child{
+    float: right;
+    color: #fff;
+    display: block;
+    background: #FF546C;
+    border-radius:20px;
+    margin-right: 5px;
+    padding: 4px 6px;
+}
+.activity{
+    width: 100%;
+}
+.activity img{
+    width: 100%;
+max-width: 100%;
+}
+.nav_2{
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    background: rgba(0,0,0,0.8) url('../images/page2/pdj_2_sprites.png') -223px -357px no-repeat;
+    background-size: 320px auto;
+    border: 1px solid #757575;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+}
+.nav_2 .navList{
+    display: none;
+    position: absolute;
+    right: -1px;
+    bottom: 42px;
+    width: 95px;
+    border: 1px solid #757575;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.8);
+}
+.nav_2 .navList a{
+    display: block;
+    padding-left: 38px;
+    border-bottom: 1px solid #4b4b4b;
+    line-height: 35px;
+    height: 35px;
+    color: #fff;
+    background-image: url(http://iwen.wiki/zhichenshop/shopping/bannerView/bmenu.png);
+    background-repeat: no-repeat;
+    background-size: 16px 300px;
+}
+.nav_2 .navList a:nth-child(1){
+    background-position: 10px 0;
+}
+.nav_2 .navList a:nth-child(2){
+    background-position: 10px -50px;
+}
+.nav_2 .navList a:nth-child(3){
+    background-position: 10px -100px;
+}
+.nav_2 .navList a:nth-child(4){
+    background-position: 10px -150px;
+}
+.nav_2 .navList a:nth-child(5){
+    background-position: 10px -200px;
+}
+.nav_2 .navList a:nth-child(6){
+    background-position: 10px -250px;
+}
+
+.zy{
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    bottom: 23px;
+    height: 36px;
+    width: 36px;
+    background: rgba(0,0,0,0.8) url('../images/page2/pdj_2_sprites.png') -268px -357px no-repeat;
+    background-size: 320px auto;
+    border: 1px solid #757575;
+    border-top: 1px solid #4b4b4b;
+    border-radius: 0 0 0 4px;
+    display: block;
+}
+
+
+
+

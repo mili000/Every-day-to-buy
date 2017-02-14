@@ -1,0 +1,219 @@
+body{
+    background-color: #f4f4f4;
+}
+.userData{
+    background: url('../images/mine/my_bg.jpg')  0 0;
+    background-size: cover;
+    min-height: 91px;
+    padding-top: 24px;
+}
+.userData i{
+    display: inline-block;
+    background: url('../images/mine/bg_photo@2x.png') no-repeat 0 0;
+    background-size:100%;
+    width: 69px;
+    height: 69px;
+    margin: 0 16px;
+    vertical-align: middle;
+}
+.userData span{
+    display: inline-block;
+    height: 27px;
+    padding: 0 10px;
+    color: #47b34f;
+    border-bottom: 1px solid #449409;
+    background: #fff;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 27px;
+}
+.userData span em{
+    font-style: normal;
+}
+
+/*nav1*/
+.nav1{
+    background: #fff;
+    padding-top: 10px;
+    display: flex;
+}
+.nav1 li{
+    flex: 1;
+    text-align: center;
+}
+.nav1 li a i{
+    display: inline-block;
+    width: 23px;
+    height: 29px;
+}
+.nav1 li:first-child a i{
+    background: url('../images/page2/pdj_2_sprites.png') no-repeat -244px -14px;
+    background-size: 413px auto;
+
+}
+
+/*my*/
+.my{
+    margin:10px 0 ;
+    padding-left: 15px;
+    background-color: white;
+}
+.my a{
+    display: block;
+}
+.my a i{
+    display: inline-block;
+    width: 26px;
+    height: 44px;
+    background: url("../images/page2/pdj_2_sprites.png") no-repeat 0 0;
+    vertical-align: -16px;
+}
+.my a i:last-child{
+    width: 44px;
+    height: 50px;
+    background-position: -80px -264px;
+    background-size:320px auto;
+    position: absolute;
+    right: 0;
+}
+.my a:nth-child(1) i:first-child{
+    background: url("../images/mine/focus.png") no-repeat -40px 14px;
+    background-size:58px auto;
+}
+.my a:nth-child(2) i:first-child{
+    background-position: -191px -44px;
+    background-size:320px auto;
+}
+.my a:nth-child(3) i:first-child{
+    background-position: -191px -88px;
+    background-size:320px auto;
+}
+
+/*service*/
+.service{
+    margin:10px 0 ;
+    padding-left: 15px;
+    background-color: white;
+}
+.service a{
+    display: block;
+    height: 44px;
+    line-height:44px;
+}
+.service a i{
+    display: inline-block;
+    width: 26px;
+    height: 44px;
+    background: url("../images/page2/pdj_2_sprites.png") no-repeat 0 0;
+    vertical-align: -16px;
+}
+.service a i:last-child{
+    width: 44px;
+    height: 50px;
+    background-position: -80px -264px;
+    background-size:320px auto;
+    position: absolute;
+    right: 0;
+}
+.service a:nth-child(1) i:first-child{
+    background-position:  -189px -132px;
+    background-size:320px auto;
+}
+.service a:nth-child(2) i:first-child{
+    background-position: -101px -131px;
+    background-size:320px auto;
+}
+.service a:nth-child(3) i:first-child{
+    background-position: -189px -176px;
+    background-size:320px auto;
+}
+.service a:nth-child(4) i:first-child{
+    background: url("../images/mine/invite.png") no-repeat 0 0;
+    background-size:70% auto;
+    /*vertical-align: -29px;*/
+    position: relative;
+    top:13px;
+}
+.service a:nth-child(5) i:first-child{
+    background: url("../images/mine/research.png") no-repeat 3px 13px;
+    background-size:15px 17px;
+}
+.service a:nth-child(6) i:first-child{
+    width: 17px;
+    height: 17px;
+    background: url("../images/mine/icon_list_help.png") no-repeat 0 0;
+    background-size:17px;
+    vertical-align: middle;
+    margin-right:8px;
+}
+
+/*software*/
+.software{
+    margin:10px 0 ;
+    padding-left: 15px;
+    background-color: white;
+}
+.software a{
+    display: block;
+    height: 44px;
+}
+.software a i{
+    display: inline-block;
+    width: 26px;
+    height: 44px;
+    background: url("../images/page2/pdj_2_sprites.png") no-repeat 0 0;
+    vertical-align: -16px;
+}
+.software a i:first-child{
+    background-position:  -189px -220px;
+    background-size:320px auto;
+}
+.software a i:last-child{
+    width: 44px;
+    height: 50px;
+    background-position: -80px -264px;
+    background-size:320px auto;
+    position: absolute;
+    right: 0;
+}
+.t1{
+    height: 110px;
+}
+
+
+/*底*/
+.bottom_nav{
+    border-top:1px solid #d9d9d9;
+    position: fixed;
+    bottom: 0;
+    margin-top:60px;
+    background: #fff;
+    width: 100%;
+}
+.bottom_nav>a{
+    width: 20%;
+    padding-top: 30px;
+    height: 20px;
+    background: url('../images/page1/nav2.png') no-repeat;
+    background-size: 22px 500px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    color:#555;
+}
+.bottom_nav>a:nth-child(1){
+    background-position: center -250px;
+}
+.bottom_nav>a:nth-child(2){
+    background-position: center -300px;
+}
+.bottom_nav>a:nth-child(3){
+    background-position: center -350px;
+}
+.bottom_nav>a:nth-child(4){
+    background-position: center -400px;
+}
+.bottom_nav>a:nth-child(5){
+    background-position: center -200px;
+    color: #39ac69;
+}
